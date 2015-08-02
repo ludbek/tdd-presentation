@@ -1,0 +1,14 @@
+
+class Cuboid:
+    def __init__(self, length, breadth, height):
+        self.length = length
+        self.breadth = breadth
+        self.height = height
+
+    def get_area(self):
+        return self.length * self.breadth
+
+    def get_volume(self):
+        return self.length * self.breadth * self.height
+
+
